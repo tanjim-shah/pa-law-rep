@@ -11,7 +11,7 @@ on:
           - 'true'
           - 'false'
   schedule:
-    - cron: '0 */2 * * *'  # Run every 2 hours
+    - cron: '0 */1 * * *'  # Run every 2 hours
 
 jobs:
   process-urls:
