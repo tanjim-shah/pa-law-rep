@@ -23,7 +23,7 @@ from google import genai
 from google.genai import types
 
 # Constants
-BATCH_SIZE = 1
+BATCH_SIZE = 10
 URLS_FILE = "urls.txt"
 PINS_DIR = "pins"
 DATA_DIR = "data"
